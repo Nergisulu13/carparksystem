@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="carparkclass.admingiris">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAgAAAAA=</HashCode>
+      <FileName>admingiris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="carparkclass.adminyetki">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACKAAEAAAAEAAAAAAEAAAAAAAAAAgAAAAAgAA=</HashCode>
+      <FileName>adminyetki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="carparkclass.kullanıcıgiris">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>kullanıcıgiris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="carparkclass.kullanıcıyetki">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>kullanıcıyetki.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="carparkclass.kullanıcıuyeol">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>kullanıcıuyeol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="carparkclass.yetki">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAAAAAAgAAQAEAAABAEAABAAAACAgAAABAAAA=</HashCode>
+      <FileName>yetki.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="carparkclass.yetkigiris">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>yetkigiris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yetkiliyetki">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABAAAAAAAAAAAAAAAAAABABAAAAAAAAAgAABSAAAA=</HashCode>
+      <FileName>yetkiliyetki.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="carparkclass.Arac">
+    <Position X="4.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>abstract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="carparkclass.SUV">
+    <Position X="4.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>abstract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="carparkclass.BinekArac">
+    <Position X="2" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>abstract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="carparkclass.TicariArac">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>abstract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinFormsApp.Yetki">
+    <Position X="3.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="WinFormsApp.IYetki">
+    <Position X="1" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface1.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9.75" />
+</ClassDiagram>
