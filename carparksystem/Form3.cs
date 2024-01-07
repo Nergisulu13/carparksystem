@@ -1,4 +1,5 @@
-﻿using System;
+﻿using carparkclass;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp;
 
 namespace carparksystem
 {
@@ -17,8 +19,6 @@ namespace carparksystem
             InitializeComponent();
         }
 
-
-
         private void Form3_Load(object sender, EventArgs e)
         {
             comboBox1.Items.Add("Pazartesi");
@@ -28,17 +28,20 @@ namespace carparksystem
             comboBox1.Items.Add("Cuma");
             comboBox1.Items.Add("Cumartesi");
             comboBox1.Items.Add("Pazar");
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             carparkclass.adminyetki x = new carparkclass.adminyetki(float.Parse(textBox1.Text), float.Parse(textBox2.Text), float.Parse(textBox3.Text));
-            label4.Text = x.MesajYazdir();
+            IYetki y = new yetki();
+            label4.Text = x.MesajYazdir() + "\n" + y.Belirlendi();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             carparkclass.adminyetki x = new carparkclass.adminyetki(float.Parse(textBox1.Text), float.Parse(textBox2.Text), float.Parse(textBox3.Text));
+
             if (comboBox1.SelectedIndex == 0)
                 label6.Text = x.Pazartesi();
             else if (comboBox1.SelectedIndex == 1)
@@ -54,7 +57,5 @@ namespace carparksystem
             else if (comboBox1.SelectedIndex == 6)
                 label6.Text = x.Pazar();
         }
-
-
     }
 }

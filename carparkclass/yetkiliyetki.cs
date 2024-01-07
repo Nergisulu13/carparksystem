@@ -7,7 +7,7 @@ using WinFormsApp;
 
 namespace carparkclass
 {
-    public class yetkiliyetki : yetki, IYetki
+    public class yetkiliyetki : yetki
     {
         public yetkiliyetki(float BinekUcret, float SuvUcret, float TicariUcret)
         {
@@ -27,17 +27,6 @@ namespace carparkclass
         public int BosParkalani { get; set; }
         public int ToplamAracSayisi { get; set; }
 
-        public void Belirlendi()
-        {
-            base.Belirlendi();
-            // Belirlendi metodu özelleştirilebilir işlemleri içerir.
-        }
-
-        public void Guncelle()
-        {
-            base.Guncelle();
-            // Guncelle metodu özelleştirilebilir işlemleri içerir.
-        }
     }
 }
 

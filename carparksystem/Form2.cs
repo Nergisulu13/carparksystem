@@ -39,21 +39,6 @@ namespace carparksystem
                           "\nOtoparkta bulunan toplam araç sayısı : " + x.ToplamAracSayisi;
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-            yetkiliyetki x = new yetkiliyetki(float.Parse(textBox1.Text), float.Parse(textBox2.Text), float.Parse(textBox3.Text));
-            IYetki ınterface1 = (IYetki)x;
-            ınterface1.Belirlendi();
-            ınterface1.Guncelle();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form5 form5 = new Form5();
-            form5.Show();
-        }
-
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 

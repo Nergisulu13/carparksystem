@@ -8,9 +8,7 @@ namespace WinFormsApp
 {
     public interface IYetki
     {
-        void Belirlendi();
-        void Guncelle();
+        string Belirlendi();
+      
     }
-
-  
 }

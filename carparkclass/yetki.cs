@@ -19,14 +19,9 @@ namespace carparkclass
         public float OnSaatuzeri { get; set; }
         public float Otoparkucret { get; set; }
 
-        public void Belirlendi()
+        public string Belirlendi()
         {
-           
-        }
-
-        public void Guncelle()
-        {
-           
+           return "Saat seçimi yaptınız,gün seçimine geçebilirsiniz. ";
         }
     }
 }

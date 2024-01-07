@@ -2,7 +2,7 @@
 
 namespace carparkclass
 {
-    public class kullanıcıyetki : yetki, IYetki
+    public class kullanıcıyetki : yetki
     {
         public kullanıcıyetki()
         {
@@ -19,14 +19,5 @@ namespace carparkclass
         public float OgrIndirim = 15;
         public float YeniUcret { get; set; }
 
-        public void Belirlendi()
-        {
-            base.Belirlendi();
-        }
-
-        public void Guncelle()
-        {
-            base.Guncelle();
-        }
     }
 }
