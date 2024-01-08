@@ -244,7 +244,7 @@
             label6.Name = "label6";
             label6.Size = new Size(135, 23);
             label6.TabIndex = 2;
-            label6.Text = "Ticari Araç Ücret";
+            label6.Text = "Ticari Araç Sayısı";
             label6.TextAlign = ContentAlignment.TopCenter;
             // 
             // label7
@@ -255,7 +255,7 @@
             label7.Name = "label7";
             label7.Size = new Size(127, 23);
             label7.TabIndex = 1;
-            label7.Text = "SUV Araç Ücret";
+            label7.Text = "SUV Araç Sayısı";
             label7.TextAlign = ContentAlignment.TopCenter;
             // 
             // label8
@@ -266,7 +266,7 @@
             label8.Name = "label8";
             label8.Size = new Size(136, 23);
             label8.TabIndex = 0;
-            label8.Text = "Binek Araç Ücret";
+            label8.Text = "Binek Araç Sayısı";
             label8.TextAlign = ContentAlignment.TopCenter;
             // 
             // Form2

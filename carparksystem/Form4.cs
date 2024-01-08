@@ -1,4 +1,5 @@
-﻿using System;
+﻿using carparkclass;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp;
 
 namespace carparksystem
 {
@@ -19,6 +21,8 @@ namespace carparksystem
         List<carparkclass.kullanıcıyetki> list = new List<carparkclass.kullanıcıyetki>();
         private void button1_Click(object sender, EventArgs e)
         {
+            IYetki z = new kullanıcıyetki();
+            label1.Text = z.Belirlendi();
             carparkclass.kullanıcıyetki x = new carparkclass.kullanıcıyetki();
             if (radioButton1.Checked)
                 x.AracUcret = x.BinekAracUcret;
@@ -61,6 +65,11 @@ namespace carparksystem
                 //label3.Text = x.IndırımMesaj();
 
             }
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
